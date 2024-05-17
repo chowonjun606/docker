@@ -1,0 +1,7 @@
+# Dockerfile-db
+FROM mysql:8.0
+
+ENV MYSQL_DATABASE=todolist_db
+ENV MYSQL_ROOT_PASSWORD=password
+
+EXPOSE 3306
